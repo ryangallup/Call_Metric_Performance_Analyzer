@@ -1,0 +1,29 @@
+The Guy Performance Analysis is a tool designed to evaluate team performance based on a systematic calculation of individual performance scores. Here's a detailed overview of the calculation process:
+
+Metric Weighting: Users assign weight percentages to different performance metrics, such as AHT (Average Handling Time), Phone Efficiency, Calls Answered, etc. These weights signify the relative significance of each metric in determining overall performance.
+
+Data Processing: The program reads performance data from an Excel file, typically organized with each row representing a team member and columns representing different metrics.
+
+Weighted Metric Calculation: For each team member, the program multiplies the value of each performance metric by its corresponding weight. This step ensures that each metric contributes appropriately to the overall performance score based on the user-defined weights.
+
+Aggregate Score Calculation: The weighted values for all metrics are aggregated to calculate an overall performance score for each team member. This aggregate score reflects the collective impact of all performance metrics on an individual's overall performance.
+
+Normalization: To ensure fairness and comparability across different metrics, the aggregate performance score is normalized. Normalization typically involves scaling the score to a common range or standardizing it against a reference value.
+
+Interpretation: The resulting performance scores provide valuable insights into the relative performance levels of team members. Higher scores indicate stronger performance, while lower scores may highlight areas for improvement or additional attention.
+
+Default Weight Explanation:
+
+AHT (Average Handling Time): 40%
+AHT is crucial in measuring the efficiency of handling calls. A higher weight reflects its importance in ensuring timely issue resolution.
+      
+Phone Efficiency: 30%
+Phone Efficiency measures the effective utilization of active call time. It plays a significant role in maximizing productivity during calls.
+      
+Calls Answered: 25%
+Calls Answered represents the promptness in attending to incoming calls, directly impacting call center throughput and customer service availability.
+      
+ACW Time (After Call Wrap-Up Time): 5%
+ACW Time reflects the efficiency of wrap-up activities after calls. While secondary to active call handling metrics, it still contributes to overall performance by ensuring swift transition to the next call.
+
+In summary, The Guy Performance Analysis streamlines the process of assessing team performance by systematically calculating individual performance scores based on weighted metrics. This approach enables organizations to make data-driven decisions, identify strengths and weaknesses, and drive continuous improvement.
